@@ -123,11 +123,11 @@ form.addEventListener("submit", (e) => {
 
 function getClassByRate(vote) {
   if (vote >= 8) {
-    return "green";
+    return "darkgreen";
   } else if (vote >= 5) {
-    return "orange";
+    return "blue";
   } else {
-    return "red";
+    return "darkred";
   }
 }
 

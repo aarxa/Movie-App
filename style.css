@@ -9,10 +9,10 @@
   --navy-blue: #1F1F1F;
   --navy-blue-dark: #141414;
   --oxford-blue-light: #2A78F4;
-  --oxford-blue: #e0a36d;
+  --oxford-blue: #d99e6a;
   --blue: #FFFFFF;
   --off-white: #CCCCCC;
-  --white: #FFD700;
+  --white: #b1980d;
 }
 
 .primary-color {
@@ -69,7 +69,7 @@ nav {
 }
 
 .search::placeholder {
-  color: var(--off-white);
+  color: var(--blue);
 }
 
 .search:focus {
@@ -138,8 +138,8 @@ nav {
 }
 
 .movie img:hover {
-  opacity: 0.8;
-  transition: all 0.2s ease;
+  opacity: 0.9;
+  animation: fadeOut 1.2s ease;
 }
 
 .primary-info {
@@ -237,7 +237,7 @@ nav {
 }
 
 .container .rate span.orange {
-  color: #eed5b9;
+  color: #f9aa4a;
 }
 
 .container .rate span.red {
@@ -410,3 +410,16 @@ nav {
     padding: 20px;
     animation: fadeIn 3s ease-in;
 }
+
+.darkgreen {
+    color: darkgreen; /* This will set the text color to dark green */
+  }
+  
+  .blue {
+    color: whitesmoke; /* This will set the text color to grey */
+  }
+  
+  .darkred {
+    color: darkred; /* This will set the text color to dark red */
+  }
+  
