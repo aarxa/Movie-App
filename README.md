@@ -13,4 +13,4 @@ You can search for movies and see what kind of rating it has, release date and i
 - JavaScript
 
 # How it looks 👀
-Live Demo: https://main--cineflix-movieapp.netlify.app 
+Live Demo: https://cineflix-movieapp.netlify.app
